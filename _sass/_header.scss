@@ -1,0 +1,19 @@
+.partial {
+  text-align: center;
+  margin-top: 30px;
+
+  .name {
+    font-size: 45px;
+    margin: 15px 0;
+  }
+
+  .me-pic {
+    height: 30%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .me-pic {
+      height: 30%;
+    }
+  }
+}

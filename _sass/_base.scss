@@ -1,0 +1,136 @@
+body {
+  margin-bottom: 20px;
+  line-height: 1;
+
+  @media(prefers-color-scheme: dark) {
+    background-color: black;
+    color: white;
+  }
+  @media(prefers-color-scheme: light) {
+    background-color: white;
+    color: black;
+  }
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  @media(prefers-color-scheme: dark) {
+    color: #79C7FD;
+  }
+}
+a:hover {
+  color: #79C7FD;
+  @media(prefers-color-scheme: dark) {
+    color: #337ab7;
+  }
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+.me-pic {
+  max-height: 250px;
+  max-width: 250px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  padding: 0 150px;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 1em 0;
+  .icon-container {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+  }
+  #twitter{
+    background-image: url("/assets/images/twitter-light.png");
+  }
+  #github {
+    background-image: url('/assets/images/github-light.png');
+  }
+  #linkedin{
+    background-image: url('/assets/images/linkedin-light.png');
+  }
+  #email{
+    background-image: url('/assets/images/email-light.png');
+  }
+  @media(prefers-color-scheme: dark) {
+    #twitter{
+      background-image: url("/assets/images/twitter-dark.png");
+    }
+    #github {
+      background-image: url('/assets/images/github-dark.png');
+    }
+    #linkedin{
+      background-image: url('/assets/images/linkedin-dark.png');
+    }
+    #email{
+      background-image: url('/assets/images/email-dark.png');
+    }
+  }
+}
+
+.links {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+  .link {
+    padding: 0 8px;
+  }
+}
+
+.row {
+  margin: 1.5em 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.window {
+  padding: 0 25px;
+}
+
+.content {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  padding: 0 150px;
+}
+
+/* Static content responsivity */
+
+@media screen and (max-width: 992px) {
+  .content {
+    padding: 0 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .links {
+    font-size: 16px;
+  }
+}
