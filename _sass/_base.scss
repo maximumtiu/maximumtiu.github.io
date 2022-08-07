@@ -13,16 +13,16 @@ body {
 }
 
 a {
-  color: #337ab7;
+  color: #0aa2c0;
   text-decoration: none;
   @media(prefers-color-scheme: dark) {
-    color: #79C7FD;
+    color: #0dcaf0;
   }
 }
 a:hover {
-  color: #79C7FD;
+  color: #3dd5f3;
   @media(prefers-color-scheme: dark) {
-    color: #337ab7;
+    color: #6edff6;
   }
 }
 
