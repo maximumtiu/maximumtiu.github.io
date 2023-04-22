@@ -4,7 +4,7 @@ title: About | Max Tiu
 permalink: /about
 ---
 
-I'm a full-stack web developer, engineering leader, and educator. I'm currently working as a Senior Engineer at [Calendly](https://calendly.com) and am serving as a Director of [Ruby Central](http://rubycentral.org).
+I'm a full-stack web developer, engineering leader, and educator. I'm currently working as a Senior Engineer at [Calendly](https://calendly.com) and I recently served as a Director of [Ruby Central](http://rubycentral.org) from 2019 - 2022.
 
 I love helping other developers grow, leaving codebases cleaner and I found them, and optimizing performance. I'm also passionate about diversity, equity, and inclusion in tech and building a positive, accessible community for all. I genuinely love the work I do.
 

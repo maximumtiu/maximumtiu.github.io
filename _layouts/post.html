@@ -1,0 +1,14 @@
+---
+layout: page
+permalink: /blog/:title:output_ext
+---
+
+<div class="window blog">
+  <div class="col-xs-12 col-sm-12 col-md-12 blogstream">
+    <h1 class="title" id="post">{{ page.title }}</h2>
+    <p class="date-stamp">{{ page.date | date: '%B %-d, %Y' }}</p>
+    <div class="post">
+      {{content}}
+    </div>
+  </div>
+</div>
